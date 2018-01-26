@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/btn_footer"
+    android:layout_marginBottom="120dp"
+    android:layout_marginLeft="60dp"
+    android:layout_marginRight="60dp"
+    android:layout_marginTop="120dp"
+    android:background="@drawable/bg_btn_add_it"
+    android:text="@string/str_add_drop"
+    android:textAllCaps="false"
+    android:layout_height="wrap_content"
+    android:textSize="24sp"
+    android:fontFamily="sans-serif-thin">
+
+</Button>

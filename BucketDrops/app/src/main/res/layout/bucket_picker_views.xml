@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_month"
+        android:text="JAN"
+        android:drawablePadding="16dp"
+        android:drawableTop="@drawable/up_normal"
+        android:drawableBottom="@drawable/down_normal"
+        style="@style/DatePickerItemStyle" />
+
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="match_parent" />
+    <TextView
+        style="@style/DatePickerItemStyle"
+        android:drawableTop="@drawable/up_normal"
+        android:drawablePadding="16dp"
+        android:drawableBottom="@drawable/down_normal"
+        android:id="@+id/tv_date"
+        android:text="10"
+       />
+
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_year"
+        android:drawableTop="@drawable/up_normal"
+        android:drawablePadding="16dp"
+        android:drawableBottom="@drawable/down_normal"
+        style="@style/DatePickerItemStyle"
+        android:text="2018" />
+
+</LinearLayout>

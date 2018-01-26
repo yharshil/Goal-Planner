@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dialog">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="36dp"
+            android:layout_marginTop="36dp"
+            android:text="@string/str_add_drop"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="28sp" />
+
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@id/tv_title"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tv_title"
+            android:fontFamily="sans-serif-thin"
+            android:background="@null"
+            android:src="@drawable/ic_close" />
+
+        <EditText
+            android:id="@+id/et_drop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_et_drop"
+            android:layout_below="@id/tv_title"
+            android:hint="@string/hint_et_drop"
+            android:inputType="textVisiblePassword"
+            android:padding="16dp" />
+
+        <com.harshilyadav.bucketdrops.widgets.BucketPickerView
+            android:id="@+id/bpv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_drop"
+            android:layout_marginBottom="64dp"
+            android:layout_marginTop="64dp" />
+
+        <Button
+            android:id="@+id/btn_add_it"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bpv_date"
+            android:text="@string/str_add_it"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_btn_add_it"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="24sp"
+             />
+
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Add it"-->
+            <!--android:layout_below="@id/bpv_date"-->
+            <!--android:id="@+id/btn_add_it"/>-->
+    </RelativeLayout>
+</ScrollView>
