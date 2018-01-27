@@ -14,8 +14,8 @@
     <item         android:id="@+id/action_sortascendingdate"
         android:title="By Least Time Left"/>
     <item         android:id="@+id/action_showcomplete"
-        android:title="Completed Drops"/>
+        android:title="Completed Goals"/>
     <item         android:id="@+id/action_showincomplete"
-        android:title="Incomplete Drops"/>
+        android:title="Incomplete Goals"/>
 
 </menu>
